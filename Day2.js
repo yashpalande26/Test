@@ -8,4 +8,4 @@ for (let i = 0; i< 1000; i++){
         
 }
 
-alert("Sum is = " +sum)
+alert("Sum is  " + sum)
