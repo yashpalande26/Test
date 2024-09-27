@@ -12,6 +12,6 @@ function summulip(){
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
     let x = parseInt(document.getElementById("x").value);
-    let answer = summul(a,b,x;
+    let answer = summul(a,b,x);
     alert("sum " + answer)
 }
