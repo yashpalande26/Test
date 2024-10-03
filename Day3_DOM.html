@@ -1,0 +1,32 @@
+<html>
+    <script>
+        function calculateSum(){
+            const a = document.getElementById("firstNumber").value;
+            const b = document.getElementById("secondNumber").value;
+            const sum = parseInt(a) + parseInt(b);
+            document.getElementById("result").innerHTML = "The sum is: " + sum;
+
+            document.getElementById("firstNumber").classList.add("hidden");
+            document.getElementById("secondNumber").classList.add("hidden");
+            document.querySelector("button").classList.add("hidden");
+        }
+    </script>
+    <style>
+        #result { 
+            font-size: 60;
+            color: blue;
+        }
+        .hidden { 
+            display: none; 
+        }
+    </style>
+
+    <body>
+        <input id="firstNumber" type="text" placeholder="Firt Number"></input>
+        <br></br>
+        <input id="secondNumber" type="text" placeholder="Second Number"></input>
+        <br></br>
+        <button onclick="calculateSum()">Calculate Sum</button>
+        <div id = "result"></div>
+    </body>
+</html>
