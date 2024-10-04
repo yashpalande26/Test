@@ -11,7 +11,7 @@ function summul(a,l) {
     for(let i = 0; i < l.length; i++)
     {
         if(l[i] % a[0] === 0 || l[i] % a[1] === 0){
-            sum = sum + n[i]
+            sum = sum + l[i]
         }
     }
     return sum
