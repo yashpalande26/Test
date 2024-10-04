@@ -8,7 +8,7 @@
 function summul(a,l) {
     let sum = 0
 
-    for(let i = 0; i < n.length; i++)
+    for(let i = 0; i < l.length; i++)
     {
         if(n[i] % a[0] === 0 || n[i] % a[1] === 0){
             sum = sum + n[i]
