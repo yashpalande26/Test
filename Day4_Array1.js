@@ -20,6 +20,6 @@ let b = 5
 let l = [2,6,88,22,76,13,17]
 
 
-console.log(summul(a,b,l))
+let result = summul(a, b, l);
 
 alert(result);
