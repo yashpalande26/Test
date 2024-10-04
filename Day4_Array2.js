@@ -18,7 +18,9 @@ function summul(a,b,n) {
 }
 
 let a = [3, 5];
-let l = [2,6,88,22,76,13,17]
+let l = [2,6,88,6,76,13,17]
 
 
-console.log(summul(a,l))
+let result = summul(a,l)
+
+alert(result);
