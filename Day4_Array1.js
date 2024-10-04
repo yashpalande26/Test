@@ -17,7 +17,7 @@ function summul(a,b,n) {
 
 let a = 3
 let b = 5
-let l = [2,6,88,22,76,13,17]
+let l = [2,6,88,6,76,13,17]
 
 
 let result = summul(a, b, l);
