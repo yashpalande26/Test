@@ -5,7 +5,7 @@
 // find the sum of all the multiples of elements of a in l
 
 
-function summul(a,b,n) {
+function summul(a,l) {
     let sum = 0
 
     for(let i = 0; i < n.length; i++)
