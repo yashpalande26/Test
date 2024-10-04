@@ -21,3 +21,5 @@ let l = [2,6,88,22,76,13,17]
 
 
 console.log(summul(a,b,l))
+
+alert(result);
