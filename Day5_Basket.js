@@ -6,7 +6,7 @@ function costCalculator(basket,price){
         if(price.hasOwnProperty(product))
             totalCost = totalCost + (basket[product]*price[product])
     }
-    return parseFloat(totalCost.toFixed(2));
+    return (totalCost);
 }
 
 const basket ={
@@ -17,7 +17,7 @@ const basket ={
 
 
 const price ={
-    "apple" : 0.40,
+    "apple" : 1.5,
     "mango" : 0.70,
     "bannana" : 0.65
 }
