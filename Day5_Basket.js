@@ -14,16 +14,15 @@ function prodculator(){
         "Apple":parseInt(document.getElementById("P1").value),
         "Mango":parseInt(document.getElementById("P2").value),
         "Bannana":parseInt(document.getElementById("P3").value)
-
     }
+    const price ={
+        "apple" : 2.2,
+        "mango" : 3,
+        "bannana" : 1.8
+    }
+    
+    result = costCalculator(basket,price)
+    
+    alert(result)
 }
 
-const basket ={
-    "apple" : 2.2,
-    "mango" : 3,
-    "bannana" : 1.8
-}
-
-result = costCalculator(basket,price)
-
-alert(result)
