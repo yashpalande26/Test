@@ -2,9 +2,8 @@
 function costCalculator(basket,price){
     let totalCost = 0
     for(let product in basket)
-    {
-        if(price.hasOwnProperty(product))
-            totalCost = totalCost + (basket[product]*price[product])
+    {            
+        totalCost = totalCost + (basket[product]*price[product])
     }
     return (totalCost);
 }
