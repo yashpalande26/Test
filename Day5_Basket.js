@@ -9,17 +9,19 @@ function costCalculator(basket,price){
     return (totalCost);
 }
 
-const basket ={
-    "apple" : 4,
-    "mango" : 3,
-    "bannana" : 2
+function prodculator(){
+    let basket = {
+        "Apple":parseInt(document.getElementById("P1").value),
+        "Mango":parseInt(document.getElementById("P2").value),
+        "Bannana":parseInt(document.getElementById("P3").value)
+
+    }
 }
 
-
 const price ={
-    "apple" : 1.5,
-    "mango" : 0.70,
-    "bannana" : 0.65
+    "apple" : 2.2,
+    "mango" : 3,
+    "bannana" : 1.8
 }
 
 result = costCalculator(basket,price)
