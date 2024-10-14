@@ -15,9 +15,9 @@ function prodculator(){
         "Bannana":parseInt(document.getElementById("P3").value)
     }
     const price ={
-        "apple" : 2.2,
-        "mango" : 3,
-        "bannana" : 1.8
+        "Apple" : 2.2,
+        "Mango" : 3,
+        "Bannana" : 1.8
     }
     
     result = costCalculator(basket,price)
