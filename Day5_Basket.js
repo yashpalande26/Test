@@ -18,7 +18,7 @@ function prodculator(){
     }
 }
 
-const price ={
+const basket ={
     "apple" : 2.2,
     "mango" : 3,
     "bannana" : 1.8
